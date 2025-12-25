@@ -1,2 +1,3 @@
-# stats-review
-Review of statistical concepts
+# Statistics Review
+
+Review of statistical concepts.
