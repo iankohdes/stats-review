@@ -6,6 +6,8 @@ Review of statistical concepts using simulation.
 
 First, make sure the `uv` Python package manager is installed. I installed mine using `cargo` since I already have Rust installed.
 
+Next, activate the environment.
+
 ```bash
 >>> uv venv stats-review
 Using CPython 3.13.3 interpreter at: /opt/homebrew/opt/python@3.13/bin/python3.13
