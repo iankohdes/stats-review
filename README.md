@@ -35,7 +35,7 @@ To deactivate the environment, type this:
 ```bash
 >>> uv init
 Initialized project `stats-review`
->>> uv add pandas altair seaborn numpy
+>>> uv add pandas altair seaborn numpy jupyterlab
 ```
 
 Failing to initialise the `uv` project results in the following error:
@@ -44,10 +44,10 @@ Failing to initialise the `uv` project results in the following error:
 error: No `pyproject.toml` found in current directory or any parent directory
 ```
 
-## Temporarily install JupyterLab
+## Run JupyterLab
 
 ```bash
->>> uvx jupyter lab
+uv run jupyter lab
 ```
 
-Once installation is finished, JupyterLab will automatically open in a new browser window. For all future runs, the command to open JupyterLab remains the same.
+Note the syntax difference: when adding the library to the environment we type `jupyterlab` and, when running, we type `jupyter lab`.
