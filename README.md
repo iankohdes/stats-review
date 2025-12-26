@@ -1,3 +1,3 @@
 # Statistics Review
 
-Review of statistical concepts.
+Review of statistical concepts using simulation.
