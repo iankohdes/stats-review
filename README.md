@@ -12,7 +12,7 @@ Next, activate the environment.
 >>> uv venv
 Using CPython 3.13.3 interpreter at: /opt/homebrew/opt/python@3.13/bin/python3.13
 Creating virtual environment at: stats-review
-Activate with: source stats-review/bin/activate
+Activate with: source .venv/bin/activate
 ```
 
 Note that it’s also possible to type `uv venv some-folder`, which creates the virtual environment as well as a folder called `some-folder`. If we leave the folder argument empty (as we did above), `uv` creates a virtual environment and uses the existing folder level as the environment name. In this case that would be `stats-review`.
