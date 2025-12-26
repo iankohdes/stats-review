@@ -27,3 +27,11 @@ To deactivate the environment, type this:
 ```bash
 >>> deactivate
 ```
+
+## Install JupyterLab
+
+```bash
+>>> uvx jupyter lab
+```
+
+Once installation is finished, JupyterLab will automatically open in a new browser window. For all future runs, the command to open JupyterLab remains the same.
