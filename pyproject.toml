@@ -12,4 +12,6 @@ dependencies = [
     "pandas>=2.3.3",
     "scipy>=1.16.3",
     "seaborn>=0.13.2",
+    "vega>=4.1.0",
+    "vl-convert-python>=1.9.0",
 ]
